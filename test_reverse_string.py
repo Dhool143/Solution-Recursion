@@ -11,7 +11,6 @@ class TestReverString(unittest.TestCase):
   def test_hello(self):
     self.assertEqual(reverse_string("hello"), "olleh")
     
-    
   def test_world(self):
     self.assertEqual(reverse_string("world"), "dlrow")
     
@@ -21,8 +20,7 @@ class TestReverString(unittest.TestCase):
     
     
     # Edge case test
-    
-    
+  
     
   def test_empty_string(self):
     self.assertEqual(reverse_string(""), "")
